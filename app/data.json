@@ -1,0 +1,127 @@
+{
+  "version": "v2",
+  "intents": {
+    "yes": {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mgm"
+      ],
+      "excludes": ["fuck off"]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "no, can we reschedule",
+        "no, let's reschedule",
+        "no, I'd like to reschedule",
+        "let's reschedule",
+        "can we reschedule",
+        "could we reschedule",
+        "I'd like to reschedule",
+        "I want to reschedule",
+        "can I reschedule",
+        "reschedule",
+        "not now"
+      ]
+    }
+  },
+  "cancel_appt": {
+    "includes": [
+      "I'd like to cancel",
+      "I'd like to cancel my appointment",
+      "cancel",
+      "cancel appointment",
+      "I won't come",
+      "I have other things to do",
+      "I can't come",
+      "I won't be able come",
+      "I have other stuff to do",
+      "cancel it",
+      "I won't be able to make it",
+      "I can't make it",
+      "I don't want to come",
+      "Don't wanna come",
+      "can't attend",
+      "won't be able to attend",
+      "I don't think I can come",
+      "I don't think I can attend"
+    ]
+  },
+  "new_appt": {
+    "includes": [
+      "let's do another day",
+      "let's reschedule for another day",
+      "let's schedule for another day",
+      "let's schedule a new appointment",
+      "no, but I'd like to come on another day",
+      "I'd like to come another day"
+    ]
+  },
+  "entities": {
+    "day_of_week": {
+      "open_set": false,
+      "values": [
+        {
+          "value": "Monday",
+          "synonyms": ["on Monday", "Lunes", "day one"]
+        },
+        {
+          "value": "Tuesday",
+          "synonyms": ["martes", "on Tuesday", "day two"]
+        },
+        {
+          "value": "Wednesday",
+          "synonyms": ["Humpday", "miercoles", "on Wednesday"]
+        },
+        {
+          "value": "Thursday",
+          "synonyms": ["jueves", "on Thursday"]
+        },
+        {
+          "value": "Friday",
+          "synonyms": ["TGIF", "viernes", "on Friday"]
+        },
+        {
+          "value": "Saturday",
+          "synonyms": ["sabado", "on Saturday"]
+        },
+        {
+          "value": "Sunday",
+          "synonyms": ["domingo", "on Sunday"]
+        }
+      ]
+    }
+  }
+}
