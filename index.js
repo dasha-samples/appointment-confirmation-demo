@@ -62,8 +62,7 @@ async function main() {
   await logFile.close();
 }
 
-process.on("unhandledRejection", (reason, promise) => {
-  // do something
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
 });
-
-main();
