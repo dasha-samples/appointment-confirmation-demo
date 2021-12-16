@@ -55,39 +55,39 @@
         "reschedule",
         "not now"
       ]
+    },
+    "cancel_appt": {
+      "includes": [
+        "I'd like to cancel",
+        "I'd like to cancel my appointment",
+        "cancel",
+        "cancel appointment",
+        "I won't come",
+        "I have other things to do",
+        "I can't come",
+        "I won't be able come",
+        "I have other stuff to do",
+        "cancel it",
+        "I won't be able to make it",
+        "I can't make it",
+        "I don't want to come",
+        "Don't wanna come",
+        "can't attend",
+        "won't be able to attend",
+        "I don't think I can come",
+        "I don't think I can attend"
+      ]
+    },
+    "new_appt": {
+      "includes": [
+        "let's do another day",
+        "let's reschedule for another day",
+        "let's schedule for another day",
+        "let's schedule a new appointment",
+        "no, but I'd like to come on another day",
+        "I'd like to come another day"
+      ]
     }
-  },
-  "cancel_appt": {
-    "includes": [
-      "I'd like to cancel",
-      "I'd like to cancel my appointment",
-      "cancel",
-      "cancel appointment",
-      "I won't come",
-      "I have other things to do",
-      "I can't come",
-      "I won't be able come",
-      "I have other stuff to do",
-      "cancel it",
-      "I won't be able to make it",
-      "I can't make it",
-      "I don't want to come",
-      "Don't wanna come",
-      "can't attend",
-      "won't be able to attend",
-      "I don't think I can come",
-      "I don't think I can attend"
-    ]
-  },
-  "new_appt": {
-    "includes": [
-      "let's do another day",
-      "let's reschedule for another day",
-      "let's schedule for another day",
-      "let's schedule a new appointment",
-      "no, but I'd like to come on another day",
-      "I'd like to come another day"
-    ]
   },
   "entities": {
     "day_of_week": {
