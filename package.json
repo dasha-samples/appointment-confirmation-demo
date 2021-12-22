@@ -8,7 +8,7 @@
     "prettier": "^2.3.0"
   },
   "dependencies": {
-    "@dasha.ai/sdk": "^0.6.5",
-    "react-scripts": "^2.1.8"
+    "@dasha.ai/sdk": "^0.7.5",
+    "react-scripts": "^5.0.0"
   }
 }
